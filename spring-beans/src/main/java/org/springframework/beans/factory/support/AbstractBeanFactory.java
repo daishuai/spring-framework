@@ -1127,12 +1127,13 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
 	//---------------------------------------------------------------------
 
 	/**
-	 * Return the bean name, stripping out the factory dereference prefix if necessary,
+	 * Return the bean name, stripping out(去除) the factory dereference prefix if necessary,
 	 * and resolving aliases to canonical names.
 	 * @param name the user-specified name
 	 * @return the transformed bean name
 	 */
 	protected String transformedBeanName(String name) {
+		// BeanFactoryUtils.transformedBeanName(name) 去除工厂引用前缀 “&”
 		return canonicalName(BeanFactoryUtils.transformedBeanName(name));
 	}
 

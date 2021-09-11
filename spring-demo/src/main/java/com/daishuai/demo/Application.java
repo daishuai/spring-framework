@@ -4,6 +4,9 @@ import com.daishuai.demo.config.DemoConfig;
 import com.daishuai.demo.service.UserService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+/**
+ * @author Daishuai
+ */
 public class Application {
 
 	public static void main(String[] args) {

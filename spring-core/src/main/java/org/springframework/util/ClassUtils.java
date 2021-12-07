@@ -62,6 +62,7 @@ public abstract class ClassUtils {
 	private static final String INTERNAL_ARRAY_PREFIX = "[";
 
 	/** Prefix for internal non-primitive array class names: "[L" */
+	/** 非基本数据类型（byte,short,char,int,long,float,double,boolean）数组的类名 */
 	private static final String NON_PRIMITIVE_ARRAY_PREFIX = "[L";
 
 	/** The package separator character: '.' */
